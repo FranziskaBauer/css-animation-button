@@ -17,7 +17,7 @@ body {
   width: 80px;
   border-radius: 100px;
   justify-content: center;
-  transition: all .3s ease-out;
+  transition: all .4s ease-out;
 }
 
 p {
@@ -28,8 +28,6 @@ p {
   margin-bottom: auto;
   margin-top: auto;
   padding-left: 15px;
-  transition: all .3s ease-out;
-
 }
 
 .button-container:hover { 
@@ -41,14 +39,12 @@ p {
 
 .button-container:hover p { 
   display: inline-flex;
-  opacity: 1;
 }
 
 
 .bookmark-container {
   display: flex;
   align-self: center;
-  transition: all .3s ease-out;
 }
 
 .bookmark {
